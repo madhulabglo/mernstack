@@ -147,7 +147,7 @@ app.delete(`/employees/:id`,async(req,res)=>{
         res.status(400).json(e)
     }
 })
-console.log("email")
+
 
 PORT = 3000;
 app.listen(PORT,()=>{
