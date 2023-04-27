@@ -14,8 +14,9 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 var allowedOrigins = ['http://localhost:3001',
-                      'https://express-practicefrontend-madhulabglo.vercel.app'];
-                    
+                      'https://mernstack-frontend.vercel.app/'];
+    
+                       
 app.use(cors({
   origin: function(origin, callback){
     // allow requests with no origin 
