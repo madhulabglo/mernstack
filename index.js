@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 var allowedOrigins = ['http://localhost:3001',
-                      'https://demo-project-lesb.vercel.app'];
+                      'https://express-practicefrontend-madhulabglo.vercel.app'];
                     
 app.use(cors({
   origin: function(origin, callback){
