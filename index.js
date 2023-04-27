@@ -14,7 +14,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 var allowedOrigins = ['http://localhost:3001',
-                      'https://mernstack-frontend.vercel.app/'];
+                      'https://mernstack-frontend.vercel.app'];
     
                        
 app.use(cors({
